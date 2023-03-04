@@ -1,0 +1,5 @@
+##gff-version 3
+KW1-S08_208_cg122	barrnap:0.9	rRNA	11527	13024	0	+	.	Name=16S_rRNA;product=16S ribosomal RNA
+KW1-S08_208_cg122	barrnap:0.9	rRNA	13179	16017	0	+	.	Name=23S_rRNA;product=23S ribosomal RNA
+KW1-S08_208_cg122	barrnap:0.9	rRNA	13184	13284	6.2e-07	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+KW1-S08_208_cg22	barrnap:0.9	rRNA	2774	2883	2.6e-12	-	.	Name=5S_rRNA;product=5S ribosomal RNA

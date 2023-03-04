@@ -1,0 +1,4 @@
+##gff-version 3
+KW1-S05_108_cg153	barrnap:0.9	rRNA	710	821	5.8e-14	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+KW1-S05_108_cg218	barrnap:0.9	rRNA	31846	33358	0	+	.	Name=16S_rRNA;product=16S ribosomal RNA
+KW1-S05_108_cg218	barrnap:0.9	rRNA	34266	35362	2.4e-216	+	.	Name=23S_rRNA;product=23S ribosomal RNA
