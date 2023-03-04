@@ -1,0 +1,24 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    KW1_S11_65
+# contigs (>= 0 bp)         383       
+# contigs (>= 1000 bp)      383       
+# contigs (>= 5000 bp)      182       
+# contigs (>= 10000 bp)     34        
+# contigs (>= 25000 bp)     1         
+# contigs (>= 50000 bp)     0         
+Total length (>= 0 bp)      2276899   
+Total length (>= 1000 bp)   2276899   
+Total length (>= 5000 bp)   1527565   
+Total length (>= 10000 bp)  491681    
+Total length (>= 25000 bp)  29420     
+Total length (>= 50000 bp)  0         
+# contigs                   383       
+Largest contig              29420     
+Total length                2276899   
+GC (%)                      51.98     
+N50                         6457      
+N75                         4403      
+L50                         115       
+L75                         221       
+# N's per 100 kbp           0.00      
