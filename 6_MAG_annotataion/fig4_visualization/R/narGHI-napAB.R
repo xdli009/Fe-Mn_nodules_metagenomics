@@ -1,0 +1,6 @@
+library(ggplot2)
+data <- read.csv("narGHI-napAB.csv", header = T, check.names = F)
+data$phylum <- factor(data$phylum,levels = c("Proteobacteria","Planctomycetota","Acidobacteriota","SAR324","Actinobacteriota","Chloroflexota","Bacteroidota","Desulfobacterota_B","Nitrospirota","Gemmatimonadota","Myxococcota_A","Nitrospinota","Myxococcota","Methylomirabilota","Latescibacterota","Verrucomicrobiota","Poribacteria","Tectomicrobia","KSB1"))
+mycol <- c("#d4a6c8","#f1ce63","#4e79a7","#ffbe7d","#d37295","#e15759","#8cd17d","#fabfd2","#86bcb6","#b6992d","#b07aa1","#f28e2b","#9d7660","#ff9d9a","#d7b5a6","#bab0ac","#79706e","#499894","#9faaa2")
+p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
+ggsave("narGHI-napAB.pdf",p,width = 8,height = 8)
