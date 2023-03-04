@@ -1,0 +1,4 @@
+##gff-version 3
+KW1-S15_215_cg115	barrnap:0.9	rRNA	11	120	2.5e-09	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+KW1-S15_215_cg44	barrnap:0.9	rRNA	4265	5234	1.1e-182	+	.	Name=23S_rRNA;product=23S ribosomal RNA
+KW1-S15_215_cg74	barrnap:0.9	rRNA	5362	6245	2.4e-216	+	.	Name=16S_rRNA;product=16S ribosomal RNA

@@ -1,0 +1,4 @@
+##gff-version 3
+KW1-S11_87_cg109	barrnap:0.9	rRNA	446	556	2e-16	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+KW1-S11_87_cg149	barrnap:0.9	rRNA	2569	2677	1e-11	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+KW1-S11_87_cg166	barrnap:0.9	rRNA	6	851	6e-200	-	.	Name=16S_rRNA;product=16S ribosomal RNA

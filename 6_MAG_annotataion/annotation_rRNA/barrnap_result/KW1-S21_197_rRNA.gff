@@ -1,0 +1,4 @@
+##gff-version 3
+KW1-S21_197_cg135	barrnap:0.9	rRNA	2	2422	0	-	.	Name=23S_rRNA;product=23S ribosomal RNA
+KW1-S21_197_cg22	barrnap:0.9	rRNA	692	795	2.3e-07	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+KW1-S21_197_cg8	barrnap:0.9	rRNA	21018	21979	2.5e-242	+	.	Name=16S_rRNA;product=16S ribosomal RNA
