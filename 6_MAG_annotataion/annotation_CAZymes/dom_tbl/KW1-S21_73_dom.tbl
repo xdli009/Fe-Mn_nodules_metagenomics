@@ -1,0 +1,34 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AA4.hmm              -            522 KW1-S21_73_cg6_1     -            459   3.9e-28   93.6   0.0   1   1   1.7e-30   5.4e-28   93.2   0.0    16   240     4   229     1   249 0.90 -
+AA7.hmm              -            458 KW1-S21_73_cg6_1     -            459   2.4e-22   75.5   0.3   1   1     1e-24   3.4e-22   75.0   0.3    13   208    48   249    37   341 0.88 -
+GT4.hmm              -            160 KW1-S21_73_cg62_4    -            374   2.6e-41  136.3   0.0   1   1   1.1e-43   3.7e-41  135.8   0.0     5   159   186   340   184   341 0.97 -
+GT5.hmm              -            472 KW1-S21_73_cg62_4    -            374   2.8e-24   80.9   0.1   1   1   1.6e-24   5.2e-22   73.4   0.0   293   471   191   364   153   365 0.89 -
+GH74.hmm             -            233 KW1-S21_73_cg78_2    -            202   2.1e-27   91.3   3.4   1   1   7.2e-15   4.6e-12   41.1   0.1    45   113    39   119    37   127 0.87 -
+GT2_Glycos_transf_2.hmm PF00535.25   170 KW1-S21_73_cg93_2    -            260   7.4e-27   89.5   0.0   1   1   2.8e-29     9e-27   89.2   0.0     1   131     7   137     7   174 0.85 Glycosyl transferase family 2
+GT81.hmm                -            293 KW1-S21_73_cg93_2    -            260   6.3e-15   50.1   0.0   1   1   2.4e-17   7.7e-15   49.8   0.0    23   142     6   118     3   191 0.82 -
+GT2_Glycos_transf_2.hmm PF00535.25   170 KW1-S21_73_cg93_3    -            245   9.3e-33  108.7   0.0   1   1   1.8e-35   1.2e-32  108.4   0.0     2   169     5   172     4   173 0.96 Glycosyl transferase family 2
+AA6.hmm              -            195 KW1-S21_73_cg100_3   -            169   1.1e-28   95.3   0.1   1   1   3.8e-31   2.4e-28   94.2   0.1     2   192     5   162     4   165 0.87 -
+CE1.hmm              -            227 KW1-S21_73_cg104_2   -            231   6.7e-22   73.6   0.0   1   1   1.3e-24   8.2e-22   73.3   0.0     5   215     8   205     4   217 0.69 -
+CE4.hmm              -            130 KW1-S21_73_cg140_6   -            299   4.6e-16   54.5   0.0   1   1   1.5e-18   9.6e-16   53.5   0.0    15   121    70   176    68   186 0.88 -
+AA4.hmm              -            522 KW1-S21_73_cg143_7   -            481   1.7e-22   75.0   0.0   1   1   5.6e-22   1.8e-19   65.0   0.0    15   253     4   231     1   240 0.83 -
+AA7.hmm              -            458 KW1-S21_73_cg143_7   -            481   1.5e-21   72.9   8.6   1   1   4.6e-24   1.5e-21   72.9   8.6    12   200    37   233    31   292 0.90 -
+GT4.hmm              -            160 KW1-S21_73_cg196_6   -            764   2.4e-15   51.8   0.0   1   1   1.1e-17   7.3e-15   50.3   0.0     7   159   195   359   189   360 0.86 -
+GH130.hmm            -            296 KW1-S21_73_cg196_7   -            334   2.5e-98  323.9   0.0   1   1  4.4e-101   2.8e-98  323.7   0.0     2   296    12   313    11   313 0.96 -
+CE14.hmm             -            124 KW1-S21_73_cg215_4   -            241   2.4e-29   97.9   1.7   1   1   6.2e-32   3.9e-29   97.2   0.1     1   117    13   120    13   133 0.92 -
+GT4.hmm              -            160 KW1-S21_73_cg216_4   -            418   2.9e-43  142.6   0.0   1   1   1.5e-45   4.8e-43  141.9   0.0     9   160   229   388   225   388 0.95 -
+GT5.hmm              -            472 KW1-S21_73_cg216_4   -            418   5.6e-29   96.3   0.0   1   1   1.1e-28   3.6e-26   87.1   0.0   295   472   232   413   222   413 0.86 -
+GT4.hmm              -            160 KW1-S21_73_cg219_1   -            299   1.4e-15   52.6   0.0   1   1     6e-18   3.8e-15   51.2   0.0     8    88   216   299   210   299 0.91 -
+GT20.hmm             -            475 KW1-S21_73_cg221_1   -            211   1.6e-37  124.3   0.0   1   1   3.2e-40     2e-37  124.0   0.0     9   171    20   197    13   198 0.82 -
+GT20.hmm             -            475 KW1-S21_73_cg223_1   -            352  1.4e-106  352.1   0.0   1   1  2.4e-109  1.5e-106  351.9   0.0   132   474     1   348     1   349 0.96 -
+#
+# Program:         hmmscan
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SCAN
+# Query file:      /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_prodigal/KW1-S21_73.proteins.faa
+# Target file:     /beegfs/home/lxd/4_salt_metagenomics/tools/CAZy/dbCAN-HMMdb-V8.txt
+# Option settings: hmmscan --tblout KW1-S21_73.tbl --domtblout KW1-S21_73_dom.tbl --acc --noali --notextw -E 1e-14 --domE 1e-14 --cpu 30 /beegfs/home/lxd/4_salt_metagenomics/tools/CAZy/dbCAN-HMMdb-V8.txt /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_prodigal/KW1-S21_73.proteins.faa 
+# Current dir:     /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_cazy
+# Date:            Thu Mar  4 19:35:30 2021
+# [ok]

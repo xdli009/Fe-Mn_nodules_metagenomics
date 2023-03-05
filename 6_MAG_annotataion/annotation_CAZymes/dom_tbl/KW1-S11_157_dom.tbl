@@ -1,0 +1,30 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AA1.hmm              -            943 KW1-S11_157_cg1_5    -            355     1e-34  115.2   8.0   1   1   2.8e-36   6.1e-34  112.7   7.9   442   678   120   337    55   342 0.80 -
+AA1_3.hmm            -            312 KW1-S11_157_cg1_5    -            355   7.4e-19   63.3   0.1   1   1   1.7e-20   3.7e-18   61.0   0.0     6   132    98   220    92   226 0.84 -
+AA1_2.hmm            -            337 KW1-S11_157_cg1_5    -            355   1.6e-17   58.8   1.6   1   1   1.4e-15   2.9e-13   44.8   0.0     6   106   129   223   126   237 0.90 -
+GT66.hmm             -            693 KW1-S11_157_cg41_2   -            418   7.9e-56  185.0  41.1   1   1   1.5e-58   9.5e-56  184.7  41.1    10   391    30   416    25   418 0.82 -
+AA4.hmm              -            522 KW1-S11_157_cg52_1   -            420   4.5e-31  103.3   0.0   1   1   8.1e-28   5.2e-25   83.3   0.0    69   279     1   213     1   229 0.84 -
+AA4.hmm              -            522 KW1-S11_157_cg52_3   -            495   3.4e-27   90.5   0.0   1   1   6.2e-29     2e-26   88.0   0.0    17   235     6   226     2   254 0.78 -
+AA7.hmm              -            458 KW1-S11_157_cg52_3   -            495   4.1e-21   71.4   0.3   1   1   3.5e-23   1.1e-20   70.0   0.0    13   186    43   231    40   265 0.85 -
+GT2_Glycos_transf_2.hmm PF00535.25   170 KW1-S11_157_cg60_2   -            251     9e-29   95.7   0.0   1   1   1.8e-31   1.2e-28   95.4   0.0     3   165    17   181    15   186 0.88 Glycosyl transferase family 2
+GT4.hmm              -            160 KW1-S11_157_cg67_17  -            381   7.2e-32  105.6   0.0   1   1   3.7e-34   1.2e-31  104.9   0.0     4   156   199   347   196   351 0.93 -
+GT5.hmm              -            472 KW1-S11_157_cg67_17  -            381     7e-17   56.5   0.0   1   1   3.7e-19   1.2e-16   55.7   0.0   239   471   174   375   158   376 0.88 -
+GH15.hmm             -            361 KW1-S11_157_cg81_4   -            604   4.6e-85  281.2   0.0   1   1   1.1e-87   6.9e-85  280.6   0.0     2   360   229   592   228   593 0.87 -
+GT1.hmm              -            382 KW1-S11_157_cg98_16  -            390   1.1e-16   57.1   0.0   1   1   2.6e-19   1.7e-16   56.5   0.0   271   376   263   384   178   389 0.89 -
+GT2_Glycos_transf_2.hmm PF00535.25   170 KW1-S11_157_cg107_11 -            390   4.8e-30   99.9   0.0   1   1     5e-32   1.1e-29   98.8   0.0     1   167    50   220    50   223 0.88 Glycosyl transferase family 2
+GT2_Glyco_tranf_2_3.hmm PF13641.5    230 KW1-S11_157_cg107_11 -            390   2.7e-20   68.5   0.0   1   1   2.6e-22   5.6e-20   67.5   0.0     1   206    47   254    46   276 0.86 Glycosyltransferase like family 2
+GT21.hmm                -            233 KW1-S11_157_cg107_11 -            390   1.2e-17   59.5   0.0   1   1   7.5e-20   1.6e-17   59.1   0.0     1   206    47   252    47   273 0.89 -
+AA4.hmm              -            522 KW1-S11_157_cg113_6  -            478   3.7e-27   90.4   0.1   1   1   6.1e-27   1.9e-24   81.4   0.2    17   258     6   237     3   244 0.88 -
+AA7.hmm              -            458 KW1-S11_157_cg113_6  -            478   1.3e-19   66.4   1.5   1   1   6.1e-22     2e-19   65.9   1.5    11   190    37   223    34   241 0.88 -
+#
+# Program:         hmmscan
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SCAN
+# Query file:      /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_prodigal/KW1-S11_157.proteins.faa
+# Target file:     /beegfs/home/lxd/4_salt_metagenomics/tools/CAZy/dbCAN-HMMdb-V8.txt
+# Option settings: hmmscan --tblout KW1-S11_157.tbl --domtblout KW1-S11_157_dom.tbl --acc --noali --notextw -E 1e-14 --domE 1e-14 --cpu 30 /beegfs/home/lxd/4_salt_metagenomics/tools/CAZy/dbCAN-HMMdb-V8.txt /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_prodigal/KW1-S11_157.proteins.faa 
+# Current dir:     /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_cazy
+# Date:            Thu Mar  4 14:29:48 2021
+# [ok]
