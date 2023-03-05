@@ -1,0 +1,38 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+GT2_Glycos_transf_2.hmm PF00535.25   170 KW1-S08_208_cg5_23   -            390   1.1e-29   98.7   0.0   1   1   1.1e-31   2.4e-29   97.6   0.0     1   167    50   220    50   223 0.84 Glycosyl transferase family 2
+GT2_Glyco_tranf_2_3.hmm PF13641.5    230 KW1-S08_208_cg5_23   -            390   3.4e-21   71.5   0.0   1   1   2.9e-23   6.1e-21   70.6   0.0     1   208    47   256    46   277 0.88 Glycosyltransferase like family 2
+GT21.hmm                -            233 KW1-S08_208_cg5_23   -            390   1.2e-17   59.5   0.0   1   1   7.6e-20   1.6e-17   59.1   0.0     1   206    47   252    47   273 0.89 -
+GT4.hmm              -            160 KW1-S08_208_cg7_6    -            324   2.3e-24   81.2   0.0   1   1   4.9e-24   3.1e-21   71.0   0.0    74   157   205   293   198   296 0.93 -
+GT2_Glycos_transf_2.hmm PF00535.25   170 KW1-S08_208_cg7_7    -            325   1.3e-21   72.5   0.0   1   1   5.5e-24   1.8e-21   72.0   0.0     1   169     8   173     8   174 0.84 Glycosyl transferase family 2
+GT2_Glyco_tranf_2_3.hmm PF13641.5    230 KW1-S08_208_cg7_7    -            325   8.5e-15   50.5   0.0   1   1   3.8e-17   1.2e-14   50.0   0.0     1   216     5   214     4   224 0.87 Glycosyltransferase like family 2
+GT4.hmm              -            160 KW1-S08_208_cg7_8    -            381   1.4e-30  101.4   0.0   1   1   7.3e-33   2.3e-30  100.7   0.0     4   156   199   347   196   351 0.93 -
+GT5.hmm              -            472 KW1-S08_208_cg7_8    -            381   4.7e-16   53.7   0.0   1   1   2.7e-18   8.5e-16   52.9   0.0   239   471   174   375   158   376 0.87 -
+AA4.hmm              -            522 KW1-S08_208_cg11_1   -            198   9.4e-24   79.2   0.2   1   1   3.8e-26   1.2e-23   78.8   0.2    17   193     6   180     3   188 0.89 -
+AA7.hmm              -            458 KW1-S08_208_cg11_1   -            198   2.2e-19   65.7   0.7   1   1     9e-22   2.9e-19   65.3   0.7    11   146    37   176    34   183 0.93 -
+GT4.hmm              -            160 KW1-S08_208_cg57_6   -            196   7.8e-36  118.5   0.0   1   1   1.6e-38     1e-35  118.1   0.0    12   152     1   157     1   163 0.92 -
+AA4.hmm              -            522 KW1-S08_208_cg75_3   -            480   2.1e-24   81.3   0.0   1   1   6.4e-22   4.1e-19   63.9   0.0    19   192    15   194     3   210 0.90 -
+CBM66.hmm            -            155 KW1-S08_208_cg78_5   -            242   9.7e-21   70.0   0.1   1   1   1.9e-23   1.2e-20   69.7   0.1    37   154   118   236    98   237 0.86 -
+AA7.hmm              -            458 KW1-S08_208_cg89_1   -            194   3.2e-20   68.5   0.0   1   1   2.3e-22   7.4e-20   67.3   0.0    14   154    42   186    38   190 0.87 -
+AA4.hmm              -            522 KW1-S08_208_cg89_1   -            194   1.6e-16   55.3   0.0   1   1   5.8e-19   1.9e-16   55.1   0.0    16   195     3   183     1   192 0.74 -
+AA4.hmm              -            522 KW1-S08_208_cg89_3   -            456   6.9e-21   69.7   0.0   1   1   3.2e-20     2e-17   58.3   0.0    51   200    31   178    11   250 0.89 -
+AA4.hmm              -            522 KW1-S08_208_cg89_4   -            495   1.2e-26   88.8   0.0   1   1   1.8e-28   5.6e-26   86.5   0.0    17   231     6   222     2   254 0.78 -
+AA7.hmm              -            458 KW1-S08_208_cg89_4   -            495   1.2e-20   69.8   0.3   1   1   1.7e-22   5.3e-20   67.7   0.0    13   149    43   182    40   263 0.90 -
+AA4.hmm              -            522 KW1-S08_208_cg89_6   -            477     3e-37  123.7   0.0   1   1   4.7e-34     3e-31  103.9   0.0    18   279     9   270     3   286 0.83 -
+GT2_Glycos_transf_2.hmm PF00535.25   170 KW1-S08_208_cg97_1   -            235   3.5e-28   93.8   0.0   1   1   7.4e-31   4.7e-28   93.4   0.0     3   154     1   159     1   171 0.88 Glycosyl transferase family 2
+GT4.hmm              -            160 KW1-S08_208_cg98_2   -            460   3.9e-32  106.4   0.0   1   1   2.2e-34   7.2e-32  105.6   0.0    22   160   247   396   242   396 0.94 -
+AA1.hmm              -            943 KW1-S08_208_cg108_3  -            355     4e-35  116.6   7.8   1   1     1e-36   2.2e-34  114.1   7.6   450   678   120   337    53   342 0.80 -
+AA1_3.hmm            -            312 KW1-S08_208_cg108_3  -            355   3.7e-19   64.3   0.1   1   1   8.7e-21   1.9e-18   62.0   0.0     6   132    98   220    92   226 0.84 -
+AA1_2.hmm            -            337 KW1-S08_208_cg108_3  -            355   6.7e-18   60.0   1.5   1   1   5.9e-16   1.3e-13   46.0   0.0     6   106   129   223   126   237 0.90 -
+GT1.hmm              -            382 KW1-S08_208_cg116_6  -            381   1.2e-15   53.7   0.0   1   1   2.5e-18   1.6e-15   53.3   0.0   271   376   254   375   182   380 0.91 -
+#
+# Program:         hmmscan
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SCAN
+# Query file:      /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_prodigal/KW1-S08_208.proteins.faa
+# Target file:     /beegfs/home/lxd/4_salt_metagenomics/tools/CAZy/dbCAN-HMMdb-V8.txt
+# Option settings: hmmscan --tblout KW1-S08_208.tbl --domtblout KW1-S08_208_dom.tbl --acc --noali --notextw -E 1e-14 --domE 1e-14 --cpu 30 /beegfs/home/lxd/4_salt_metagenomics/tools/CAZy/dbCAN-HMMdb-V8.txt /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_prodigal/KW1-S08_208.proteins.faa 
+# Current dir:     /beegfs/home/lxd/2_sea_metagenomics/6.metabat2/bins_redup_refinem_drep/derep_70_10/derepbins_cazy
+# Date:            Thu Mar  4 12:46:16 2021
+# [ok]
