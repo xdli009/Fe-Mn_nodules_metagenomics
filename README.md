@@ -92,3 +92,66 @@ We performed deep metagenomic sequencing of seven sediment-associated communitie
       The combined figure generated using Adobe Illustrator.
     * #### Figure_S2.tif
       The TIFF format of Fig. S2.
+
+## 3_genome_binning
+  * #### mapping
+    * #### index
+      Directory containing indexed files for metagenomic assemblies. (The files are not uploaded due to their size, but you can run the bash script in the directory to get them.)
+    * #### bwa.sh
+      Bash script to generate sequences map files.
+    * #### bwa_result
+      Directory containing sequences map files. (The files are not uploaded due to their size, but you can run the above bash script to get them.)
+  * #### metabat2.sh
+    Bash script for metagenome binning.
+  * #### coverage_result
+    Directory containing the results of coverage profiles. (The files are not uploaded due to their size, but you can run the above bash script to get them.)
+  * #### bins_result
+    Directory containing MAGs for each sample. (The files are not uploaded due to their size, but you can run the above bash script to get them.)
+  * #### refinem.sh
+    Bash script for refining MAGs.
+  * #### bins_refinem
+    Directory containing the results of refining MAGs. (The files are not uploaded due to their size, but you can run the above bash script to get them.)
+    
+## 4_MAG_dereplication
+  * #### all_refined_bins
+    Directory containing all refined MAGs. (The files are not uploaded due to their size, but you can put all refined MAGs in one directory based on the above results.)
+  * #### drep.sh
+    Bash script to deduplicate all refined MAGs.
+  * #### drep_result
+    * #### dereplicated_genomes
+      Directory containing 179 high quality nonredundant MAGs. (The files are not uploaded due to their size, but you can run the above bash script to get them.)
+    * #### change_newid.sh
+      Bash script to change the names of 179 MAGs.
+    * #### dereplicated_genomes_newid
+      Directory containing 179 MAGs after changing the names. (The files are not uploaded due to their size, but you can run the above bash script to get them.)
+    * #### change_contig_id.py
+      Python script to change the contig names of MAGs.
+    * #### dereplicated_genomes_newid_newcontigid
+      Directory containing 179 MAGs after changing the contig names.
+  * #### gtdbtk.sh
+    Bash script for taxonomic classification of 179 MAGs.
+  * #### gtdb_result
+    Directory containing results of classification.
+  * #### MAGs_gtdb_to_rpS3
+    * #### all_rps3_relative_abundance_average_to_info.txt
+      Information of rpS3 protein clusters.
+    * #### bins_phylum.csv
+      Taxonomic classification of MAGs at the phylum level.
+    * #### get_rpS3_to_bin.py
+      Python script to check the GTDB-based classification with rpS3-based classification.
+    * #### rpS3_to_bin.txt
+      The result of running the python script above.
+    * #### sankey.R
+      R script for visualization of Fig. S3.
+    * #### rpS3_to_bin_ggplot.txt
+      Input file for the R script above.
+    * #### Figure_S6.pdf
+      PDF file of Fig. S6. (The image is retouched on the output of the R script using Adobe Illustrator.)
+    * #### Figure_S6.tif
+      The TIFF format of Fig. S6.
+  * #### quast.sh
+    Bash script to evaluate assembly quality of 179 MAGs.
+  * #### MAG_quast
+    Directory containing the results of the assembly quality.
+  * #### all_drep_bins_info.xlsx (Table S4)
+    Information of all nonredundant MAGs.
