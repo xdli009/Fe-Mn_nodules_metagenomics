@@ -1,0 +1,1 @@
+makeblastdb -in tcdb -dbtype prot -out tcdb
