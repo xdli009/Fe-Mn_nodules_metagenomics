@@ -211,7 +211,7 @@ We performed deep metagenomic sequencing of seven sediment-associated communitie
     * #### prodigal.sh
       Bash script to predict genes of the 179 MAGs.
     * #### prodigal_result
-      Directory containing the results of genes prediction. (These files are compressed.)
+      Directory containing the results of genes prediction.
   * #### annotation_rRNA
     * #### barrnap.sh
       Bash script to identify rRNAs of MAGs.
