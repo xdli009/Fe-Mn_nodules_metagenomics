@@ -1,5 +1,0 @@
-for file in `ls ./all_proteins_annotated | grep ".faa"`
-do
-name=${file%.faa*}
-blastp -query ./all_proteins_annotated/${name}.faa -out ./all_proteins_annotated/${name}.bln -db nr_prot_211204.fa -outfmt 6 -evalue 1e-20 -num_threads 8
-done
