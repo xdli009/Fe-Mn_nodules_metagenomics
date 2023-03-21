@@ -1,6 +1,0 @@
-library(ggplot2)
-data <- read.csv("sseA.csv", header = T, check.names = F)
-data$phylum <- factor(data$phylum,levels = c("Proteobacteria","SAR324","Actinobacteriota","Desulfobacterota_D","Planctomycetota","Desulfobacterota_B","Chloroflexota","Thermoproteota","Tectomicrobia","Methylomirabilota","Acidobacteriota","Nitrospirota","Bacteroidota","Myxococcota_A","Myxococcota","Gemmatimonadota","Krumholzibacteriota","Poribacteria"))
-mycol <- c("#d4a6c8","#ffbe7d","#d37295","#a0cbe8","#f1ce63","#fabfd2","#e15759","#00a98f","#499894","#ff9d9a","#4e79a7","#86bcb6","#8cd17d","#b07aa1","#9d7660","#b6992d","#59a14f","#79706e")
-p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
-ggsave("sseA.pdf",p,width = 8,height = 8)

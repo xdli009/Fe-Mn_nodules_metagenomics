@@ -1,6 +1,0 @@
-library(ggplot2)
-data <- read.csv("nirK-nirS.csv", header = T, check.names = F)
-data$phylum <- factor(data$phylum,levels = c("Proteobacteria","SAR324","Desulfobacterota_D","Bacteroidota","Planctomycetota","Desulfobacterota_B","Chloroflexota","Gemmatimonadota","Acidobacteriota","Actinobacteriota","Methylomirabilota","Thermoproteota","Nitrospirota","Verrucomicrobiota","Nitrospinota","Tectomicrobia","KSB1","Krumholzibacteriota"))
-mycol <- c("#d4a6c8","#ffbe7d","#a0cbe8","#8cd17d","#f1ce63","#fabfd2","#e15759","#b6992d","#4e79a7","#d37295","#ff9d9a","#00a98f","#86bcb6","#bab0ac","#f28e2b","#499894","#9faaa2","#59a14f")
-p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
-ggsave("nirK-nirS.pdf",p,width = 8,height = 8)

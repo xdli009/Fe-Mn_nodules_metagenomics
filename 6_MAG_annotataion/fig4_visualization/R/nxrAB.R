@@ -1,6 +1,0 @@
-library(ggplot2)
-data <- read.csv("nxrAB.csv", header = T, check.names = F)
-data$phylum <- factor(data$phylum,levels = c("Desulfobacterota_B","Nitrospirota","Proteobacteria"))
-mycol <- c("#fabfd2","#86bcb6","#d4a6c8")
-p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
-ggsave("nxrAB.pdf",p,width = 8,height = 8)
