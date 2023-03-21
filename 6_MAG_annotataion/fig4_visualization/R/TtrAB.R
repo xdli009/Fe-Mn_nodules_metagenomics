@@ -1,0 +1,6 @@
+library(ggplot2)
+data <- read.csv("TtrAB.csv", header = T, check.names = F)
+data$phylum <- factor(data$phylum,levels = c("Proteobacteria","Acidobacteriota","SAR324","Planctomycetota","Desulfobacterota_D","Chloroflexota","Gemmatimonadota","Myxococcota_A","Bacteroidota","Desulfobacterota_B","Actinobacteriota","Methylomirabilota","Verrucomicrobiota","Thermoproteota","Tectomicrobia","KSB1","Krumholzibacteriota","Myxococcota"))
+mycol <- c("#d4a6c8","#4e79a7","#ffbe7d","#f1ce63","#a0cbe8","#e15759","#b6992d","#b07aa1","#8cd17d","#fabfd2","#d37295","#ff9d9a","#bab0ac","#00a98f","#499894","#9faaa2","#59a14f","#9d7660")
+p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
+ggsave("TtrAB.pdf",p,width = 8,height = 8)

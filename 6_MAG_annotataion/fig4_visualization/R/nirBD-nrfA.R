@@ -1,0 +1,6 @@
+library(ggplot2)
+data <- read.csv("nirBD-nrfA.csv", header = T, check.names = F)
+data$phylum <- factor(data$phylum,levels = c("Proteobacteria","Planctomycetota","Acidobacteriota","Actinobacteriota","Desulfobacterota_D","Chloroflexota","Desulfobacterota_B","Bacteroidota","Myxococcota_A","Gemmatimonadota","Thermoproteota","Nitrospirota","Methylomirabilota","Tectomicrobia","Myxococcota","Latescibacterota","Verrucomicrobiota","Nitrospinota","KSB1","Krumholzibacteriota","Poribacteria"))
+mycol <- c("#d4a6c8","#f1ce63","#4e79a7","#d37295","#a0cbe8","#e15759","#fabfd2","#8cd17d","#b07aa1","#b6992d","#00a98f","#86bcb6","#ff9d9a","#499894","#9d7660","#d7b5a6","#bab0ac","#f28e2b","#9faaa2","#59a14f","#79706e")
+p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
+ggsave("nirBD-nrfA.pdf",p,width = 8,height = 8)

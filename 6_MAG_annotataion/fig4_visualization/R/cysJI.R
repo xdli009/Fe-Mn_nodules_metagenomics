@@ -1,0 +1,6 @@
+library(ggplot2)
+data <- read.csv("cysJI.csv", header = T, check.names = F)
+data$phylum <- factor(data$phylum,levels = c("Proteobacteria","Planctomycetota","Desulfobacterota_D","SAR324","Acidobacteriota","Gemmatimonadota","Myxococcota_A","Chloroflexota","Actinobacteriota","Bacteroidota","Nitrospirota","Nitrospinota","Tectomicrobia","Desulfobacterota_B","Myxococcota","Methylomirabilota","Thermoproteota","Krumholzibacteriota","Poribacteria"))
+mycol <- c("#d4a6c8","#f1ce63","#a0cbe8","#ffbe7d","#4e79a7","#b6992d","#b07aa1","#e15759","#d37295","#8cd17d","#86bcb6","#f28e2b","#499894","#fabfd2","#9d7660","#ff9d9a","#00a98f","#59a14f","#79706e")
+p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
+ggsave("cysJI.pdf",p,width = 8,height = 8)

@@ -1,0 +1,6 @@
+library(ggplot2)
+data <- read.csv("soxB.csv", header = T, check.names = F)
+data$phylum <- factor(data$phylum,levels = c("Proteobacteria","Planctomycetota","Gemmatimonadota","Chloroflexota","Bacteroidota","Actinobacteriota","SAR324","Nitrospirota","Desulfobacterota_B","Latescibacterota","Verrucomicrobiota","Poribacteria","KSB1"))
+mycol <- c("#d4a6c8","#f1ce63","#b6992d","#e15759","#8cd17d","#d37295","#ffbe7d","#86bcb6","#fabfd2","#d7b5a6","#bab0ac","#79706e","#9faaa2")
+p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
+ggsave("soxB.pdf",p,width = 8,height = 8)
