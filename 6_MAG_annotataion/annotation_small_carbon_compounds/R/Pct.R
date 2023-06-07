@@ -1,0 +1,6 @@
+library(ggplot2)
+data <- read.csv("Pct.csv", header = T, check.names = F)
+data$phylum <- factor(data$phylum,levels = c("Proteobacteria","Actinobacteriota","SAR324","Chloroflexota","Poribacteria"))
+mycol <- c("#d4a6c8","#d37295","#ffbe7d","#e15759","#79706e")
+p <- ggplot(data, aes(x=gene, y=num, fill=phylum)) + geom_bar(stat = "identity",position ="fill") + scale_fill_manual(values=mycol) + labs(x = "Sample" , y = "Relative abundance(%)") + theme(axis.title=element_text(size=15),axis.text.x = element_text(angle=45, hjust = 1, vjust = 1 ,size = 12),axis.text.y = element_text(size = 12),axis.ticks.length=unit(0.15,"cm") ,panel.background = element_blank(),axis.line = element_line(color = "black"))
+ggsave("Pct.pdf",p,width = 8,height = 8)
