@@ -448,15 +448,16 @@ We performed deep metagenomic sequencing of seven sediment samples collected adj
     Python script to get carbohydrate degradation profile of these 18 MAGs.
   * #### high_bin_cazy_phylum_abundance_passed.txt
     The result of running the python script above.
-  * #### fig5_visualization
+  * #### fig1c_visualization
     * #### bin_average_abundance_phylum.txt
       The mean relative abundance and taxonomy of each MAG.
     * #### species_abundance_bar.R
-      R script for visualization of Fig. 5a.
-    * #### Figure_5a.pdf
-      PDF file of Fig. 5a.
+      R script for visualization of Fig. 1c.
+    * #### Figure_1c.pdf
+      PDF file of Fig. 1c.
     * #### high_abundance_bins_info.csv
       Information of 18 high relative abundance MAGs.
+  * #### fig5_visualization
     * #### high_abundance_all_network_checked.txt
       All functional profile of these 18 MAGs (manually checked).
     * #### high_abundance_all_network.cys
