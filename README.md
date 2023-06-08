@@ -167,15 +167,8 @@ We performed deep metagenomic sequencing of seven sediment samples collected adj
     Bash script to calculate the relative abundance of each MAG in each sample.
   * #### abundance
     Directory containing the results of abundance calculating.
-  * #### merge.txt (Table S6)
-    Merged file of  the relative abundance of each MAG in each sample.
-  * #### maping_rate
-    * #### maping_rate.sh
-      Bash script to calculate the percentage of the metagenomes that the 179 MAGs represent.
-    * #### result
-      Directory containing the results of CoverM runs. (The BAM files are not uploaded due to their size, but you can run the above bash script to get them.)
-    * #### maping_rate_each_sample.xlsx (Table S5)
-      The percentage of the metagenomes that the 179 MAGs represent.
+  * #### merge.txt (Table S5)
+    Merged file of the relative abundance of each MAG in each sample.
   * #### fig1_visualization
     * #### phylum-bar.R
       R script for visualization of the relative abundance of these MAGs.
@@ -284,11 +277,11 @@ We performed deep metagenomic sequencing of seven sediment samples collected adj
         Python script to get information of MAGs containing correctly annotated genes.
       * #### bin_metal_tcdb_phylum_abundance_passed.txt
         Information of MAGs containing correctly annotated genes.
-      * #### bin_metal_transport_phylum_abundance_passed.xlsx (Table S7)
+      * #### bin_metal_transport_phylum_abundance_passed.xlsx (Table S6)
         Information of TCDB's annotation in the 179 MAGs.
-      * #### bin_metal_redox_phylum_abundance_passed.xlsx (Table S8)
+      * #### bin_metal_redox_phylum_abundance_passed.xlsx (Table S7)
         Information of metal redox annotation in the 179 MAGs.
-      * #### iron_oxidation_reduction.xlsx (Table S9)
+      * #### iron_oxidation_reduction.xlsx (Table S8)
         The list of proteins involved in iron oxidation and iron reduction.
   * #### fig2_figS5_visualization
     * #### bin_metal_tcdb_phylum_abundance_passed_uniq.xlsx
@@ -314,7 +307,7 @@ We performed deep metagenomic sequencing of seven sediment samples collected adj
       Python script for collating the above results.
     * #### statistic_bins_CAZy.csv
       Statistical result for annotations of CAZymes.
-    * #### statistic_bins_CAZy_MAGs_info.csv (Table S10)
+    * #### statistic_bins_CAZy_MAGs_info.csv (Table S9)
       Based on the above statistical result, the classification and abundance of each MAG were added.
     * #### matrix_to_list.py
       Python script to convert the above result in matrix form to the result in list form.
@@ -324,7 +317,7 @@ We performed deep metagenomic sequencing of seven sediment samples collected adj
       Taxonomic classification of MAGs at the phylum level.
     * #### statistic_phylum_CAZy.py
       Python script to summarize percentage of genomes within each phylum which contained CAZymes.
-    * #### statistic_phylum_CAZy.csv (Table S11)
+    * #### statistic_phylum_CAZy.csv (Table S10)
       The result of running the python script above.
   * #### fig3_visualization
     * #### melt.R
